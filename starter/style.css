@@ -1,15 +1,7 @@
 /* printr cyan: #3292a6 */
-html {
-  margin: 0 auto;
-  max-width: 1920px;
-}
 
 body {
-  margin-top: 1rem;
-}
-
-* {
-  box-sizing: border-box;
+  margin-top: 105px;
 }
 
 .navbar {
@@ -18,33 +10,15 @@ body {
   background: #fff;
 }
 
-.navbar-nav {
-  margin-left: auto;
-}
-
 .nav-item {
+  font-size: 1.4rem;
   padding-right: 20px;
-}
-
-#logo {
-  width: 4vw;
 }
 
 #showcase {
   position: relative;
   background: url(./img/mountain.jpeg);
-  min-height: 30vw;
-}
-
-.showcase-large-font {
-  font-size: 3.5vw;
-}
-
-#showcase-poser {
-  width: 15vw;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  min-height: 600px;
 }
 
 .primary-overlay {
@@ -54,7 +28,6 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  padding: 5vw;
 }
 
 .btn,
@@ -69,37 +42,17 @@ body {
   background-color: #3292a6;
 }
 
-.col-md-3 {
-  max-width: 22%;
-  margin: auto;
-}
-
 .text-primary,
 h5 {
   color: #3292a6 !important;
-  font-weight: bold;
-}
-
-.text-primary2,
-h5 {
-  color: white !important;
-  font-weight: bold;
-}
-
-.flex-container {
-  display: flex;
 }
 
 .border-primary {
   border-color: #3292a6 !important;
-  border: solid 0.2vw;
-  text-align: center;
 }
 
 .bg-primary {
   background-color: #3292a6 !important;
-  color: white;
-  text-align: center;
 }
 
 .info-header {
@@ -108,23 +61,16 @@ h5 {
   border-bottom: 1px #ddd solid;
 }
 
-#authors {
-  margin: 0 auto;
-  padding: 2vw;
-}
-
 #authors img {
-  margin-top: -5vw;
-  border-radius: 90px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  margin-top: -50px;
+  border-radius: 200px;
+  max-width: 50%;
+  height: auto;
 }
 
 #authors .fa {
-  font-size: 2vw;
+  font-size: 25px;
   color: #3292a6;
-  padding: 1vw;
 }
 
 #contact .input-group-text {
@@ -139,26 +85,8 @@ h5 {
     display: none;
   }
 
-  #showcase-poser {
-    display: none;
-  }
-
-  .flex-container {
-    flex-direction: column;
-  }
-
-  .col-md-3 {
-    max-width: 90%;
-    padding: 2vw;
-    margin: 2vw;
-  }
-
-  #authors img {
-    margin-top: -5vw;
-    border-radius: 90px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 25%;
+  .card {
+    margin-top: 60px;
   }
 }
 

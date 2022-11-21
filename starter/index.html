@@ -11,51 +11,55 @@
 </head>
 
 <body id="#home">
-  <section id="nav">
-    <nav class="navbar navbar-expand-md navbar-light fixed top py-4">
-      <div class="container logo-container">
-        <a href="">
-          <h3>Print</h3><img id="logo" src="img/printr_logo.png" alt="prinr_logo">
-        </a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span
-            class="navbar-toggler-icon">&nbsp;</span></button>
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav navbar-right">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Meet the Authors</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link">Contact</a>
-            </li>
-          </ul>
-        </div>
+  <!-- Nav section -->
+  <nav class="navbar navbar-expand-md navbar-light fixed top py-4">
+    <div class="container">
+      <a class="navbar-brand" href="#">Print
+        <img src="img/printr_logo.png" width="30" height="30" class="d-inline-block align-top" alt="printr_logo">
+      </a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span
+          class="navbar-toggler-icon">&nbsp;</span></button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Meet the Authors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
       </div>
-    </nav>
-  </section>
+    </div>
+  </nav>
+  <!-- showcase section -->
+
   <section id="showcase" class="py-5">
     <div class="primary-overlay text-white">
       <div class="container">
-        <div class="row">
+        <div class="row align-items-center" style="height:600px">
           <div class="col-lg-6 text-center">
-            <p class="showcase-large-font">Print what you dream of...</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam recusandae
-              tenetur facere animi corrupti!</p>
-            <button type="button" class="btn">Read More</button>
+            <h1>Print what you dream of...</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus, architecto! Non nesciunt libero
+              incidunt dolorem sunt, cupiditate ut deserunt velit!</p>
+            <a class="btn" href="#"><i class="fa fa-arrow-right"></i>Read More</a>
           </div>
-          <div class="col-lg-6">
-            <img id="showcase-poser" src="img/poser-design.jpg" alt="poser-design">
+          <div class="col-lg-6 d-flex">
+            <img src="img/poser-design.jpg" class="logo img-responsive rounded mx-auto"
+              style="max-width:65%; height:auto;">
           </div>
         </div>
       </div>
     </div>
   </section>
+
+  <!-- newsletter section -->
+
   <section id="newsletter" class="bg-dark text-white py-5">
     <div class="container">
       <div class="row">
@@ -66,105 +70,121 @@
           <input type="text" class="form-control form-control-lg" placeholder="Enter Email" />
         </div>
         <div class="col-md-4">
-          <button class="btn btn-primarty btn-lg btn-block">
+          <!-- button.btn.btn-primarty.btn-lg.btn-bl>i.fa.fa-envelope-open-o -->
+          <button class="btn btn-primary btn-lg btn-block">
             <i class="fa fa-envelope-open-o"></i> Subscribe
           </button>
         </div>
       </div>
     </div>
   </section>
+
+  <!-- boxes section -->
+
   <section id="boxes" class="py-5">
-    <div class="flex-container">
-      <div class="col-md-3 border-primary card">
-        <div class="card-body">
-          <h5 class="card-title text-primary">Print better</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deserunt accusamus
-            blanditiis architecto!</p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card border-primary text-center text-primary">
+            <div class="card-body">
+              <h4 class="card-title">Print better</h4>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique vitae architecto
+                obcaecati saepe neque alias ea numquam natus quibusdam? Incidunt?</p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="col-md-3 border-primary bg-primary card">
-        <div class="card-body">
-          <h5 class="card-title text-primary2">Print Smarter</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deserunt accusamus
-            blanditiis architecto!</p>
+        <div class="col-md-3">
+          <div class="card bg-primary text-white text-center">
+            <div class="card-body">
+              <h4 class="card-title">Print Smarter</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsa assumenda
+                rerum veritatis, repudiandae quia eum recusandae autem ullam saepe.</p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="col-md-3 border-primary card">
-        <div class="card-body">
-          <h5 class="card-title text-primary">Print Faster</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deserunt accusamus
-            blanditiis architecto!</p>
+        <div class="col-md-3">
+          <div class="card border-primary text-center text-primary">
+            <div class="card-body">
+              <h4 class="card-title">Print Faster</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt autem quasi alias
+                ipsam, totam veritatis odit beatae recusandae voluptatum repellendus.</p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="col-md-3 border-primary bg-primary card">
-        <div class="card-body">
-          <h5 class="card-title text-primary2">Print better</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa deserunt accusamus
-            blanditiis architecto!</p>
+        <div class="col-md-3">
+          <div class="card bg-primary text-white text-center">
+            <div class="card-body">
+              <h4 class="card-title">Print better</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit voluptate corrupti
+                laudantium ea ipsum aliquam amet, voluptatibus eligendi natus aut.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
+
+  <!-- about section -->
+
   <section id="about" class="my-5 py-5 text-center bg-light">
     <div class="container">
       <div class="row">
         <div class="col">
           <div class="info-header mb-5">
             <h1 class="text-primary pb-3">Why Print at all?</h1>
-            <p class="lead pb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur itaque officiis
-              illo, recusandae accusamus veniam fugiat tempora eaque. Voluptatibus, iste.</p>
+            <p class="lead pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque deleniti aliquam
+              distinctio dignissimos beatae numquam non exercitationem neque voluptatum explicabo.</p>
           </div>
-
           <div class="accordion" id="accordionExample">
             <div class="card">
               <div class="card-header" id="headingOne">
                 <h2 class="mb-0">
-                  <button class="btn btn-link btn-block text-center" type="button" data-toggle="collapse"
+                  <button class="btn btn-light btn-block text-center" type="button" data-toggle="collapse"
                     data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Get inspired
+                    <i class="fa fa-arrow-down"></i>Get Inspired
                   </button>
                 </h2>
               </div>
 
               <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                 <div class="card-body">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, nesciunt maxime. Esse, libero aliquid?
-                  Blanditiis quia, neque dolore, inventore dolor aliquam asperiores repudiandae, consequatur minima
-                  perferendis eos maiores quam perspiciatis!
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident excepturi dignissimos hic
+                  voluptatum eos non consequatur cumque dicta similique harum vel quia quibusdam voluptate qui amet
+                  exercitationem, fugit, cupiditate repudiandae?
                 </div>
               </div>
             </div>
             <div class="card">
               <div class="card-header" id="headingTwo">
                 <h2 class="mb-0">
-                  <button class="btn btn-link btn-block text-center collapsed" type="button" data-toggle="collapse"
+                  <button class="btn btn-light btn-block text-center collapsed" type="button" data-toggle="collapse"
                     data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Print what yout think
+                    <i class="fa fa-arrow-down"></i>Print what you think
                   </button>
                 </h2>
               </div>
               <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                 <div class="card-body">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor, deleniti. Distinctio velit explicabo
-                  magni natus! Non hic ex animi. Impedit iure officiis nam mollitia recusandae vitae quaerat commodi
-                  nobis sunt.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet iste accusamus quasi impedit. Harum
+                  modi rerum dolore nam! Facere quaerat maxime recusandae in laborum odit beatae sunt sequi fuga
+                  maiores.
                 </div>
               </div>
             </div>
             <div class="card">
               <div class="card-header" id="headingThree">
                 <h2 class="mb-0">
-                  <button class="btn btn-link btn-block text-center collapsed" type="button" data-toggle="collapse"
+                  <button class="btn btn-light btn-block text-center collapsed" type="button" data-toggle="collapse"
                     data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Open your mind!
+                    <i class="fa fa-arrow-down"></i>Open your mind!
                   </button>
                 </h2>
               </div>
               <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                 <div class="card-body">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor, deleniti. Distinctio velit explicabo
-                  magni natus! Non hic ex animi. Impedit iure officiis nam mollitia recusandae vitae quaerat commodi
-                  nobis sunt.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nostrum incidunt voluptas molestias
+                  deserunt iusto, vitae adipisci quas dolore repellat eaque id cupiditate, mollitia distinctio numquam
+                  sint veritatis sapiente atque.
                 </div>
               </div>
             </div>
@@ -174,94 +194,127 @@
     </div>
   </section>
 
-  <section id="authors" class="container my-5 text-center">
-    <div class="container>
-      <div class=" row">
-      <div class="col">
-        <div class="info-header mb-5">
-          <h1 class="text-primary pb-3">Meet the Printers</h1>
-          <p class="lead pb3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam unde provident nam
-            pariatur sunt reprehenderit dolor, sapiente possimus natus. Repudiandae!</p>
-        </div>
-      </div>
-    </div>
+  <!-- authors section -->
 
-
-    <div class="row">
-      <div class="flex-container">
-        <div class="col-md-3 card">
-          <img src="img/profile1.jpeg" class="card-img-top" alt="profile-1">
-          <div class="card-body">
-            <h3 class="card-title">Susan Williams</h3>
-            <h4 class="text-muted">Lead printer</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-          </div>
-          <div class="card-body">
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-pinterest"></a>
-          </div>
-        </div>
-        <div class="col-md-3 card">
-          <img src="img/profile2.jpeg" class="card-img-top" alt="profile-1">
-          <div class="card-body">
-            <h3 class="card-title">Susan Williams</h3>
-            <h4 class="text-muted">Lead printer</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-          </div>
-          <div class="card-body">
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-pinterest"></a>
-          </div>
-        </div>
-        <div class="col-md-3 card">
-          <img src="img/profile3.jpeg" class="card-img-top" alt="profile-1">
-          <div class="card-body">
-            <h3 class="card-title">Kevin Swanson</h3>
-            <h4 class="text-muted">Lead printer</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-          </div>
-          <div class="card-body">
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-pinterest"></a>
-          </div>
-        </div>
-        <div class="col-md-3 card">
-          <img src="img/profile4.jpeg" class="card-img-top" alt="profile-1">
-          <div class="card-body">
-            <h3 class="card-title">Susan Williams</h3>
-            <h4 class="text-muted">Lead printer</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-          </div>
-          <div class="card-body">
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-pinterest"></a>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
-  </section>
-  <section id="contact" class="bg-light py-5">
+  <section id="authors" class="my-5 text-center">
     <div class="container">
       <div class="row">
-        <div class="col-lg-9"></div>
-        <div class="col-lg-3"></div>
+        <div class="col">
+          <div class="info-header mb-5">
+            <h1 class="text-primary pb-3">Meet the Printers</h1>
+            <p class="lead pb3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt esse dolor architecto
+              labore voluptas minima, sunt recusandae. Impedit, similique velit!</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card align-items-center">
+            <img class="img-fluid" src="img/profile1.jpeg" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Susan Williams</h5>
+              <p class="text-muted">Lead printer</p>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat, velit delectus
+                odio repellat voluptas magnam.</p>
+              <div class="card-body">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-pinterest"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card align-items-center">
+            <img class="img-fluid" src="img/profile2.jpeg" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Susan Williams</h5>
+              <p class="text-muted">Lead printer</p>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, corporis. Eligendi
+                voluptatem in a reiciendis?</p>
+              <div class="card-body">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-pinterest"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card align-items-center">
+            <img class="img-fluid" src="img/profile3.jpeg" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Kevin Swanson</h5>
+              <p class="text-muted">Lead printer</p>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti facilis tempore at
+                quo neque maxime!</p>
+              <div class="card-body">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-pinterest"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card align-items-center">
+            <img class="img-fluid" src="img/profile4.jpeg" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Susan Williams</h5>
+              <p class="text-muted">Lead printer</p>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi consequatur alias
+                fugit aliquam ad? Provident?</p>
+              <div class="card-body">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-pinterest"></a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
+
+  <!-- contact section -->
+
+  <section id="contact" class="bg-light py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-9">
+          <h1>Get in touch</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi eveniet autem deleniti molestiae. Ullam enim
+            ipsa nemo, beatae fugiat ea.</p>
+          <form>
+            <div class="input-group-prepend mb-3">
+              <span class="input-group-text"><i class="fa fa-user"></i></span>
+              <input type="text" class="form-control" placeholder="Name">
+            </div>
+            <div class="input-group-prepend mb-3">
+              <span class="input-group-text"><i class="fa fa-envelope"></i></span>
+              <input type="email" class="form-control" placeholder="Email">
+            </div>
+            <div class="input-group-prepend mb-3">
+              <span class="input-group-text"><i class="fa fa-pencil"></i></span>
+              <textarea class="form-control" rows="5" id="comment"></textarea>
+            </div>
+            <button type="button" class="btn btn-light btn-block">Submit</button>
+          </form>
+        </div>
+        <div class="col-lg-3">
+          <img class="logo" src="img/printr_logo.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+
   <footer id="main-footer" class="py-5 bg-primary text-white">
     <div class="container">
       <div class="row text-center">
         <div class="col-md-6 m-auto">
-          <p class="lead">Copyright &copy; 2021</p>
+          <p class="lead">Copyright &copy; 2022</p>
         </div>
       </div>
     </div>
